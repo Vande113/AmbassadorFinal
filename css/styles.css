@@ -1,0 +1,185 @@
+html {
+    box-sizing:border-box;
+}
+
+body {
+    background-color: black;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+  }
+
+h1 {
+    color: goldenrod;
+    font-weight: bolder;
+  }
+
+p {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+.fix{
+    position: fixed;
+}
+.NavBar{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    position: relative;
+    z-index: 3;
+    
+    top: -20px;
+}
+
+.NavBarMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    z-index: 2;
+    top: -50px;
+    width: 100%;
+    position: relative;
+    height: 7em;
+    background-color: black;
+}
+
+hr{
+    z-index: 100;
+    top: -20px;
+    height:2px;
+    border-width:0;
+    color:goldenrod;
+    background-color:goldenrod;
+    position: relative;
+}
+
+.NavHome{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* max-width: 700px; */
+    width: 100%;
+    min-width: 200px;
+}
+.Nav{
+    text-align: center;
+    background-color: black;
+    color: goldenrod;
+    font-size: 40px;
+    /* height: 150px; */
+    padding-top: 75px;
+}
+
+.NavMenu{
+    text-align: center;
+    background-color: black;
+    color: goldenrod;
+    font-size: 40px;
+    /* height: 150px; */
+    padding-top: 45px;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 0 20px; */
+    box-sizing: border-box;
+    background-color: #381518;
+    z-index: -5;
+
+}
+
+
+.imgheader{
+    position: relative;
+    z-index: -1;
+    top: 100px;
+    /* width: 150%; */
+    display: block; 
+    /* height: 1000px; 
+    overflow: hidden; */
+}
+.imgOther{
+    position: relative;
+    z-index: -1;
+
+    /* width: 150%; */
+    display: block; 
+    margin: 0%;
+    /* height: 1000px; 
+    overflow: hidden; */
+}
+
+.textbox{
+background-color: #381518;
+position: relative;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 30px;
+padding-bottom: 30px;
+z-index: -1;
+margin: 0%;
+}
+
+.center{
+    text-align: center;
+}
+
+.TwoColums{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+.TwoColumsReview{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4em;
+     /* margin-left: 4%;
+    margin-right: 4%;  */
+    text-align: left;
+    row-gap: 40px;
+}
+
+.ThreeColums{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.5em;
+    text-align: left; 
+    row-gap: 10px;
+}
+
+.Ender{
+    position: relative;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+    z-index: -1;
+}
+
+.up{
+
+    background-color: #381518;
+}
+
+.facebook{
+    color: white;
+    z-index: 10;
+
+}
